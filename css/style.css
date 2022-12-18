@@ -1,0 +1,55 @@
+.conteiner {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 139px;
+    padding-left: 139px;
+    align-items: center;
+    height: 96px;
+}
+
+ul {
+
+    display: flex;
+    gap: 71px;
+    color: #8172D5;
+    font-size: 13px;
+}
+
+.search {
+
+    width: 227px;
+    height: 37px;
+    background-color: #F2F5F8;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+
+
+
+}
+
+.fa-magnifying-glass {
+    background-color: #8172D5;
+    width: 37px;
+    height: 37px;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* Header */
+
+
+
