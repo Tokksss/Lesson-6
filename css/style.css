@@ -6,7 +6,6 @@
 
 /* Header */
 header {
-
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -17,7 +16,6 @@ header {
 }
 
 ul {
-
     display: flex;
     gap: 71px;
     color: #8172D5;
@@ -25,16 +23,12 @@ ul {
 }
 
 .search {
-
     width: 227px;
     height: 37px;
     background-color: #F2F5F8;
     display: flex;
     border-radius: 10px;
     flex-direction: row-reverse;
-
-
-
 }
 
 .fa-magnifying-glass {
@@ -45,8 +39,6 @@ ul {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-
-
 }
 
 /* Header */
@@ -74,7 +66,6 @@ h1 {
 }
 
 .cards {
-
     width: 100%;
     height: 90%;
     margin: 0 auto;
@@ -85,14 +76,12 @@ h1 {
 }
 
 .card {
-
     width: 24%;
     height: 368px;
     padding: 18px 18px 21px;
     text-align: left;
     border-radius: 15px;
     background-color: #ffffff;
-
 }
 
 .card_img {
@@ -101,11 +90,37 @@ h1 {
 }
 
 .card_text {
-
     margin-top: 76px;
     font-size: 20px;
     color: #133B3A;
-
 }
 
 /* section */
+
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #758BFD;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 141px 26px 139px;
+    color: white;
+}
+
+footer h2 {
+    display: flex;
+    margin-right: 139px;
+    font-weight: bold;
+}
+
+footer ul {
+    display: flex;
+    color: white;
+    margin-left: 141px;
+    gap: 117px;
+}
+/* footer */
